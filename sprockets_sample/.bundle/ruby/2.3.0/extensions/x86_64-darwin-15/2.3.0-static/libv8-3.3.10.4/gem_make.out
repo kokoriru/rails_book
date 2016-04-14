@@ -1,0 +1,35 @@
+current directory: /Users/yuka/development/rails/rails_book/sprockets_sample/.bundle/ruby/2.3.0/gems/libv8-3.3.10.4/ext/libv8
+/Users/yuka/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20160413-67726-1gphq81.rb extconf.rb --with-system-v8
+Checking for Python...2.7.10
+Compiling V8...
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+
+scons: warning: Ignoring missing SConscript 'obj/test/release/SConscript'
+File "/Users/yuka/development/rails/rails_book/sprockets_sample/.bundle/ruby/2.3.0/gems/libv8-3.3.10.4/lib/libv8/build/v8/SConstruct", line 1407, in BuildSpecific
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(atomicops_internals_x86_gcc.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(gdb-jit.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(inspector.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(liveobjectlist.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(objects-printer.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(property.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(regexp-macro-assembler-irregexp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(string-search.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(atomicops_internals_x86_gcc.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(gdb-jit.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(inspector.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(liveobjectlist.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(objects-printer.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(property.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(regexp-macro-assembler-irregexp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libv8.a(string-search.o) has no symbols
+creating Makefile
+
+current directory: /Users/yuka/development/rails/rails_book/sprockets_sample/.bundle/ruby/2.3.0/gems/libv8-3.3.10.4/ext/libv8
+make "DESTDIR=" clean
+
+current directory: /Users/yuka/development/rails/rails_book/sprockets_sample/.bundle/ruby/2.3.0/gems/libv8-3.3.10.4/ext/libv8
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/yuka/development/rails/rails_book/sprockets_sample/.bundle/ruby/2.3.0/gems/libv8-3.3.10.4/ext/libv8
+make "DESTDIR=" install

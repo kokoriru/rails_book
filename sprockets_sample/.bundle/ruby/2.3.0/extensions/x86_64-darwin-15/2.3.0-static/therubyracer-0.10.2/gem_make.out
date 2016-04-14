@@ -1,0 +1,150 @@
+current directory: /Users/yuka/development/rails/rails_book/sprockets_sample/.bundle/ruby/2.3.0/gems/therubyracer-0.10.2/ext/v8
+/Users/yuka/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20160413-67726-rgjuqq.rb extconf.rb --with-v8-dir
+checking for main() in -lobjc... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/yuka/development/rails/rails_book/sprockets_sample/.bundle/ruby/2.3.0/extensions/x86_64-darwin-15/2.3.0-static/therubyracer-0.10.2/mkmf.log
+
+current directory: /Users/yuka/development/rails/rails_book/sprockets_sample/.bundle/ruby/2.3.0/gems/therubyracer-0.10.2/ext/v8
+make "DESTDIR=" clean
+
+current directory: /Users/yuka/development/rails/rails_book/sprockets_sample/.bundle/ruby/2.3.0/gems/therubyracer-0.10.2/ext/v8
+make "DESTDIR="
+compiling rr.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+rr.cpp:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+rr.cpp:151:44: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    return String::New(RSTRING_PTR(value), RSTRING_LEN(value));
+           ~~~~~~                          ^~~~~~~~~~~~~~~~~~
+/Users/yuka/.rbenv/versions/2.3.0/include/ruby-2.3.0/ruby/ruby.h:991:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/yuka/.rbenv/versions/2.3.0/include/ruby-2.3.0/ruby/ruby.h:987:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+     (long)((RBASIC(str)->flags >> RSTRING_EMBED_LEN_SHIFT) & \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rr.cpp:151:44: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    return String::New(RSTRING_PTR(value), RSTRING_LEN(value));
+           ~~~~~~                          ^~~~~~~~~~~~~~~~~~
+/Users/yuka/.rbenv/versions/2.3.0/include/ruby-2.3.0/ruby/ruby.h:992:28: note: expanded from macro 'RSTRING_LEN'
+     RSTRING(str)->as.heap.len)
+     ~~~~~~~~~~~~~~~~~~~~~~^~~
+3 warnings generated.
+compiling v8.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling v8_array.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling v8_callbacks.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling v8_context.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling v8_date.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling v8_debug.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling v8_exception.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+v8_exception.cpp:10:16: warning: unused variable 'stack' [-Wunused-variable]
+  static void* stack[20];
+               ^
+1 warning generated.
+compiling v8_external.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+v8_external.cpp:10:9: warning: unused variable 'references' [-Wunused-variable]
+  VALUE references;
+        ^
+1 warning generated.
+compiling v8_function.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling v8_handle.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling v8_locker.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+v8_locker.cpp:45:5: warning: control reaches end of non-void function [-Wreturn-type]
+    }
+    ^
+v8_locker.cpp:85:5: warning: control reaches end of non-void function [-Wreturn-type]
+    }
+    ^
+2 warnings generated.
+compiling v8_message.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling v8_object.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+v8_object.cpp:77:19: warning: unused variable 'proto' [-Wunused-variable]
+    Handle<Value> proto(rr_rb2v8(prototype));
+                  ^
+1 warning generated.
+compiling v8_script.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling v8_string.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+v8_string.cpp:18:73: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    return rr_v8_handle_new(string_class, String::New(RSTRING_PTR(str), RSTRING_LEN(str)));
+                                          ~~~~~~                        ^~~~~~~~~~~~~~~~
+/Users/yuka/.rbenv/versions/2.3.0/include/ruby-2.3.0/ruby/ruby.h:991:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/yuka/.rbenv/versions/2.3.0/include/ruby-2.3.0/ruby/ruby.h:987:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+     (long)((RBASIC(str)->flags >> RSTRING_EMBED_LEN_SHIFT) & \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v8_string.cpp:18:73: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    return rr_v8_handle_new(string_class, String::New(RSTRING_PTR(str), RSTRING_LEN(str)));
+                                          ~~~~~~                        ^~~~~~~~~~~~~~~~
+/Users/yuka/.rbenv/versions/2.3.0/include/ruby-2.3.0/ruby/ruby.h:992:28: note: expanded from macro 'RSTRING_LEN'
+     RSTRING(str)->as.heap.len)
+     ~~~~~~~~~~~~~~~~~~~~~~^~~
+v8_string.cpp:23:79: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    return rr_v8_handle_new(string_class, String::NewSymbol(RSTRING_PTR(str), RSTRING_LEN(str)));
+                                          ~~~~~~                              ^~~~~~~~~~~~~~~~
+/Users/yuka/.rbenv/versions/2.3.0/include/ruby-2.3.0/ruby/ruby.h:991:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/yuka/.rbenv/versions/2.3.0/include/ruby-2.3.0/ruby/ruby.h:987:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+     (long)((RBASIC(str)->flags >> RSTRING_EMBED_LEN_SHIFT) & \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v8_string.cpp:23:79: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    return rr_v8_handle_new(string_class, String::NewSymbol(RSTRING_PTR(str), RSTRING_LEN(str)));
+                                          ~~~~~~                              ^~~~~~~~~~~~~~~~
+/Users/yuka/.rbenv/versions/2.3.0/include/ruby-2.3.0/ruby/ruby.h:992:28: note: expanded from macro 'RSTRING_LEN'
+     RSTRING(str)->as.heap.len)
+     ~~~~~~~~~~~~~~~~~~~~~~^~~
+4 warnings generated.
+compiling v8_template.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling v8_try_catch.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling v8_v8.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+v8_v8.cpp:22:49: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    V8::SetFlagsFromString(RSTRING_PTR(string), RSTRING_LEN(string));
+    ~~                                          ^~~~~~~~~~~~~~~~~~~
+/Users/yuka/.rbenv/versions/2.3.0/include/ruby-2.3.0/ruby/ruby.h:991:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/yuka/.rbenv/versions/2.3.0/include/ruby-2.3.0/ruby/ruby.h:987:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+     (long)((RBASIC(str)->flags >> RSTRING_EMBED_LEN_SHIFT) & \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v8_v8.cpp:22:49: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    V8::SetFlagsFromString(RSTRING_PTR(string), RSTRING_LEN(string));
+    ~~                                          ^~~~~~~~~~~~~~~~~~~
+/Users/yuka/.rbenv/versions/2.3.0/include/ruby-2.3.0/ruby/ruby.h:992:28: note: expanded from macro 'RSTRING_LEN'
+     RSTRING(str)->as.heap.len)
+     ~~~~~~~~~~~~~~~~~~~~~~^~~
+2 warnings generated.
+compiling v8_value.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+v8_value.cpp:100:9: warning: unused function 'ToInt32' [-Wunused-function]
+  VALUE ToInt32(VALUE self) {
+        ^
+1 warning generated.
+compiling v8_weakref.cpp
+clang: warning: argument unused during compilation: '-rdynamic'
+linking shared-object v8.bundle
+
+current directory: /Users/yuka/development/rails/rails_book/sprockets_sample/.bundle/ruby/2.3.0/gems/therubyracer-0.10.2/ext/v8
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 v8.bundle ./.gem.20160413-67726-ttxjom
